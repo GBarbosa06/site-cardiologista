@@ -3,29 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CardioLife - Inicio</title>
+    <title>Inicio | CardioLife</title>
     <link rel="stylesheet" href="style.css">
 
 
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-        :root{
-    --azul1:#008BD2;
-    --azul2:#0652A2;
-    --vermelho1:#E95060;
-    --vermelho2:#E9273C;
-
-    --fonte-padrao:'Work Sans', Arial, sans-serif;
-
-}  
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    :root{
+        --azul0:#E8F5FB;
+        --azul1:#008BD2;
+        --azul2:#0652A2;
+        --vermelho1:#E95060;
+        --vermelho2:#E9273C;
+        --fonte-padrao:'Work Sans', Arial, sans-serif;
+    }  
     main{
         height: 400px;
         background-image: url(images/medico\ main.png);
         background-repeat: no-repeat;
         background-position: right;
     }
-    main > ul> li > a{
+    main a{
         position: relative;
         text-decoration: none;
         color: white;
@@ -33,9 +32,13 @@
         font-size: 20px;
         font-weight: 500;
         text-transform: uppercase;
-        padding: 0px 22px 45px 22px;
-
+        padding: 8px 29px 45px 25px;
+    
     }
+    main p{
+        padding-top: 10px;
+    }
+
     main > ul > li{
         text-align: center;
         background-color: var(--azul1);
@@ -62,7 +65,7 @@
         <a href="index.html" class="logo"><img src="images/logo cardiolife p.png" alt="logo"></a>
         <nav>
             <ul>
-                <li><a href="#">Início</a></li>
+                <li><a href="index.html">Início</a></li>
                 <li>Sobre nós
                     <div class="sub-menu">
                         <ul>
@@ -76,16 +79,16 @@
                     </ul></div>
                 </li>
 
-                <li>Contato</li>
+                <li><a href="https://wa.me/5561993978650">Contato</a></li>
             </ul>
         </nav> 
     </header>
     <hr>
     <main>
         <ul style="padding-top: 26px;">
-            <li><a href="https://wa.me/5561993978650"><br>Marcar uma consulta</a></li>
-            <li><a href="https://wa.me/5561993978650"><br>Marcar seus exames</a></li>
-            <li><a href="#"><br>Convênios aceitos</a></li>            
+            <li><p><a href="https://wa.me/5561993978650">Marcar uma consulta</a></p></li>
+            <li><p><a href="https://wa.me/5561993978650">arcar seus exames</a></p></li>
+            <li><p><a href="convenios.html">Convênios aceitos</a></p></li>            
         </ul>
     </main>
     

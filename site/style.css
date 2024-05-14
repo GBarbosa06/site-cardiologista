@@ -3,6 +3,7 @@
 
 
 :root{
+    --azul0:#E8F5FB;
     --azul1:#008BD2;
     --azul2:#0652A2;
     --vermelho1:#E95060;
@@ -26,6 +27,9 @@ header{
 header>nav{
     margin:35px 0px 0px 15px;
 
+}
+header a{
+    padding: 15px 67px;
 }
 
 header> nav, header a{
@@ -69,10 +73,15 @@ header li:hover{
 header img{
     width: 250px;
     height: 70px;
-    margin: 30px 50px 20px 30px;
+    /* margin: 30px 50px 20px 30px; */
 
 }
 .logo{
-    display: inline;
+
+    margin: 15px -30px;
+}
+.sub-menu li, .sub-menu a{
+    width: 350px;
+
 }
 
