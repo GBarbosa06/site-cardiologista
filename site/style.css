@@ -16,9 +16,32 @@
 }
 header{
     background-color: white;
+    text-align: center;
+    list-style: none;
     
+}
+header li {
+    font-family: var(--fonte-padrao);
+    color: white;
+    padding: 20px;
+    margin: 2px;
+    width: 200px;
+    height: 50px;
+    background-color: var(--azul1);
+    display: inline-block;
+    transition: all .5s;
+    border-radius: 8px;
+}
+header li:hover{
+    background-color: var(--vermelho1);
+    scale: 1.1;
 }
 header img{
     width: 250px;
+    height: 130px;
     margin: 20px;
+
+}
+.logo{
+    display: inline;
 }
