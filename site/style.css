@@ -16,14 +16,18 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: var(--fonte-padrao);
 }
 header{
     background-color: white;
     text-align: center;
     list-style: none;
     display: flex;
+    justify-content: space-between;
+    padding-right: 90px;
 
 }
+
 header>nav{
     margin:35px 0px 0px 15px;
 
@@ -39,7 +43,7 @@ header> nav, header a{
     color: white;
     text-decoration: none;
 }
-nav ul{
+header nav ul{
     display: inline-flex;
 }
 header li {
