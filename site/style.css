@@ -70,7 +70,7 @@ header nav ul li:hover .sub-menu ul{
 }
 
 header li:hover{
-    background-color: var(--vermelho1);
+    background-color: var(--vermelho2);
     scale: 1.1;
     cursor: pointer;
 }

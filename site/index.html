@@ -70,9 +70,9 @@
     }
     
     .box{
-        margin-top: 150px;
+        margin-top: 200px;
         margin-bottom: 150px;
-text-align: center;
+        text-align: center;
     }
 
     .container{
@@ -97,10 +97,52 @@ text-align: center;
         display: inline-block;
       }
    
-    .area-depoimentos{
-        background-color: var(--azul1);
+    #area-azul{
+        background-image: linear-gradient(to bottom, #0c9ce4, var(--azul2));
+        /* ackground-color: var(--azul1); */
         height: 400px;
         margin-bottom: 200px;
+        text-align: center;
+
+    }
+    #area-azul h1{
+        padding: 50px 0px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 800;
+        font-size: 37px;
+    }
+    #area-azul li{
+        background-color: var(--vermelho2);
+        height: 50px;
+        width: 200px;
+        border-radius: 5px;
+        display: inline-block;
+        padding-top: 10px;
+        transition: all .5s;
+    }
+    #area-azul li:hover{
+    
+        scale: 1.1;
+    }
+    #area-azul p{
+        display: inline-block;
+        background-color: var(--azul2);
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        padding: 15px;
+    }
+    #area-azul > ul> div{
+        display: inline-block;
+        padding: 30px 50px;
+    }
+    #area-azul a{
+        color: rgb(255, 255, 255);
+        font-weight: 600;
+        font-size: 20px;
+        text-decoration: none;
+
     }
 
     </style>
@@ -125,7 +167,7 @@ text-align: center;
                     </ul></div>
                 </li>
 
-                <li><a href="https://wa.me/5561993978650" target="_blank">Contato</a></li>
+                <li><a href="#area-azul">Contato</a></li>
             </ul>
         </nav> 
     </header>
@@ -171,8 +213,15 @@ text-align: center;
             </a>
         </div>
     </div>
-    <div class="area-depoimentos">
-        a
+    <div id="area-azul">
+        <h1>Tem alguma dúvida?</h1>
+        <ul>
+            <li><a href="tel:+5561993978650">Ligue 619911111111</a></li>
+            <div>
+                <p>OU</p>
+            </div>
+            <li><a href="https://wa.me/5561993978650" style="color: rgb(0, 231, 0);">WhatsApp</a></li>
+        </ul>
     </div>
 
     
