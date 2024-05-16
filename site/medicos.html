@@ -22,18 +22,16 @@
         }
 
         main {
-            height: 900px;
+            height: 1060px;
             background-color: var(--azul0);
             padding: 30px;
+
         }
         main h1{
             text-transform: uppercase;
             margin-bottom: 30px;
         }
-        main a{
-            text-decoration: none;
-            color: rgb(43, 0, 0);
-        }
+
         main img{
             height: 200px;
             width: 200px;
@@ -46,23 +44,56 @@
             font-weight: 500;
             padding: 10px;
         }
-
         .medico{
-            height: 250px;
+            cursor: pointer;
+            height: 253px;
             border-top: black solid 1px;
-
+            transition: all .3s;
+        }
+        .medico:hover{
+            height: 400px;
         }
         #medico1{
             background-image: linear-gradient(to right, #046E64,var(--azul0))
-}
+        }
+        #medico1 p{
+            display: none;
+            padding: 20px;
+            width: 800px;
+            font-size: 20px;
+        }   
+        #medico1:hover p{
+            display: block;
+        }
  
         #medico2{
             background-image: linear-gradient(to right, #F26C2D,var(--azul0))
             
         }
+        #medico2 p{
+            display: none;
+            padding: 20px;
+            width: 800px;
+            font-size: 20px;
+        }    
+        #medico2:hover p{
+            display: block;
+        }
+
         #medico3{
             background-image: linear-gradient(to right, #06315B,var(--azul0))
         }
+        #medico3 p{
+            display: none;
+            padding: 20px;
+            width: 800px;
+            font-size: 20px;
+        }    
+        #medico3:hover p{
+            display: block;
+
+        }
+
         aside{
             text-align: center;
             margin: 40px;
@@ -92,18 +123,22 @@
 <hr>
     <main>
         <h1>Nossos profissionais</h1>
-        <a href="">
-            <div class="medico" id="medico1"><h2>Guilherme Barbosa</h2>
-            <img src="images/foto gui3.png" ></div>
-        </a>
-        <a href="">
-            <div class="medico" id="medico2"><h2>Guilherme Sorridente</h2>
-            <img src="images/gui sorridente.jpeg" ></div>
-        </a>
-        <a href="">
-            <div class="medico" id="medico3"><h2>Pequeno Guilherme</h2>
-            <img src="images/littlegui2.png" ></div>
-        </a>
+            <div class="medico" id="medico1"><h2>Dr. Guilherme</h2>
+            <img src="images/foto gui3.png" >
+            <p>Com maestria e serenidade, o Dr. Guilherme conduz sua jornada médica. Sua competência é notória, fruto de anos de estudo e aprimoramento constante. Mas é sua empatia que o torna único. Dedicação, clareza e compaixão permeiam cada consulta, transformando-o em um pilar de apoio para seus pacientes. Mais que curar, o Dr. Guilherme cuidava da alma.</p>
+        </div>
+
+            <div class="medico" id="medico2"><h2>Dr. Andrade</h2>
+            <img src="images/gui sorridente.jpeg">
+            <p>Com um sorriso que ilumina, o Dr. Andrade contagia alegria e cura em cada consulta. Sua competência e positividade transformam o ambiente em um refúgio de esperança e bem-estar. Mais que um médico, ele é um agente de cura que inspira sorrisos e renova a fé na saúde.
+            </p>
+        </div>
+
+            <div class="medico" id="medico3"><h2>Dr. Barbosa</h2>
+            <img src="images/littlegui2.png">
+            <p>Dr. Barbosa: um médico brilhante que transcende sua baixa estatura com maestria médica e paixão pela tecnologia. No consultório, cura com excelência. Nas horas vagas, inova para a saúde. Um gigante que inspira com sorriso cativante.</p>
+        </div>
+    
     </main>
     <aside>
         <p><a href="index.html">Voltar</a></p>
