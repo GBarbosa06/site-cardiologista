@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conheça nossos médicos | CardioLife</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/coracao-logo.png" type="image/x-icon">
+
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        
+        :root{
+            --azul0:#E8F5FB;
+            --azul1:#008BD2;
+            --azul2:#0652A2;
+            --vermelho1:#E95060;
+            --vermelho2:#E9273C;
+            --fonte-padrao:'Work Sans', Arial, sans-serif;
+        }
+
+        main {
+            height: 900px;
+            background-color: var(--azul0);
+            padding: 30px;
+        }
+        main h1{
+            text-transform: uppercase;
+            margin-bottom: 30px;
+        }
+        main a{
+            text-decoration: none;
+            color: rgb(43, 0, 0);
+        }
+        main img{
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            margin-left: 150px;
+            object-fit: cover;
+        }
+        h2{
+            font-family: var(--fonte-padrao);
+            font-weight: 500;
+            padding: 10px;
+        }
+
+        .medico{
+            height: 250px;
+            border-top: black solid 1px;
+
+        }
+        #medico1{
+            background-image: linear-gradient(to right, #046E64,var(--azul0))
+}
+ 
+        #medico2{
+            background-image: linear-gradient(to right, #F26C2D,var(--azul0))
+            
+        }
+        #medico3{
+            background-image: linear-gradient(to right, #06315B,var(--azul0))
+        }
+        aside{
+            text-align: center;
+            margin: 40px;
+        }
+        aside a, aside p{
+            display: inline-block;
+            background-color: var(--azul1);
+            color: white;
+            text-decoration: none;
+            height: 50px;
+            width: 200px;
+            border-radius: 5px;
+        }
+        aside a{
+            padding-top: 15px;
+        }
+        aside a:hover{
+            transition: .18s all;
+            transform: scale(1.05)
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="images/logo cardiolife p.png" alt="logo"></a>
+    </header>
+<hr>
+    <main>
+        <h1>Nossos profissionais</h1>
+        <a href="">
+            <div class="medico" id="medico1"><h2>Guilherme Barbosa</h2>
+            <img src="images/foto gui3.png" ></div>
+        </a>
+        <a href="">
+            <div class="medico" id="medico2"><h2>Guilherme Sorridente</h2>
+            <img src="images/gui sorridente.jpeg" ></div>
+        </a>
+        <a href="">
+            <div class="medico" id="medico3"><h2>Pequeno Guilherme</h2>
+            <img src="images/littlegui2.png" ></div>
+        </a>
+    </main>
+    <aside>
+        <p><a href="index.html">Voltar</a></p>
+    </aside>
+
+    <footer>
+        <h1>CardioLife</h1>
+        <p>CENTRO CLINICO UCB - Taguatinga Sul, Brasília - DF, Brasil</p>
+        <p><a href="https://wa.me/556133569000">Entrar em contato</a></p>
+        <p style="color: black; font-family: var(--fonte-padrao); font-weight: 300; padding-top: 80px;">Site desenvolvido por Guilherme de Andrade Barbosa</p>
+    </footer>
+</body>

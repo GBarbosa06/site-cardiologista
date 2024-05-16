@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Convênios | CardioLife</title>
+    <title>CardioLife</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="images/coracao-logo.png" type="image/x-icon">
 
+
+
     <style>
-            @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+        
         :root{
             --azul0:#E8F5FB;
             --azul1:#008BD2;
@@ -16,28 +19,9 @@
             --vermelho1:#E95060;
             --vermelho2:#E9273C;
             --fonte-padrao:'Work Sans', Arial, sans-serif;
-        }  
-        aside{
-            background-image: url(images/convenios.png);
-            background-position: -4px -30px;
-            height: 500px;
-        }
-        main{
-            background-color: var(--azul0);
-            margin: 30px;
-            padding: 20px;
-            border-radius: 10px;
-            font-family: var(--fonte-padrao);
-        }
-        main ul{
-            list-style-position: inside;
-            list-style-type: '\2714\00A0';
-            columns: 3;
         }
     </style>
-
 </head>
-
 <body>
     <header>
         <a href="index.html" class="logo"><img src="images/logo cardiolife p.png" alt="logo"></a>
@@ -61,13 +45,7 @@
         </nav> 
     </header>
 
-    <aside></aside>
-    <main>
-        <ul>
-            <li>AMIL (consultar rede)</li><li>ASSEFAZ</li><li>BACEN</li><li>BNDES</li><li>BRADESCO (consultar rede)</li><li>BRB SAÚDE</li><li>CAESAN</li><li>CAPESAÚDE</li><li>CASEMBRAPA</li><li>CASSI</li><li>CBMDF</li><li>CODEVASF</li><li>CONAB</li><li>E-VIDA</li><li>FASCAL</li><li>GAMA (consultar rede)</li><li>GEAP</li><li>GOLDEN CROSS</li><li>INAS -GDF</li><li>PLAN ASSISTE MPU</li><li>MEDISERVICE (consultar rede)</li><li>NOTRE DAME (consultar rede)</li><li>PROASA</li><li>PLAN – ASSISTE</li><li>POSTAL SAÚDE</li><li>REAL GRANDEZA (consultar rede)</li><li>SAÚDE ANCHIETA</li><li>SAÚDE CAIXA</li><li>SERPRO</li><li>STJ (PROSER)</li><li>STF</li><li>STM</li><li>SULAMÉRICA (consultar rede)</li><li>TELOS</li><li>TJDFT – PRÓ SAÚDE</li><li>TRE</li><li>TRF – PRO SOCIAL</li><li>TRT</li><li>TST SAÚDE</li><li>UNIMED CNU (consultar rede)</li>
 
-        </ul>
-    </main>
     <footer>
         <h1>CardioLife</h1>
         <p>CENTRO CLINICO UCB - Taguatinga Sul, Brasília - DF, Brasil</p>
@@ -75,4 +53,3 @@
         <p style="color: black; font-family: var(--fonte-padrao); font-weight: 300; padding-top: 80px;">Site desenvolvido por Guilherme de Andrade Barbosa</p>
     </footer>
 </body>
-</html>
