@@ -145,13 +145,19 @@
         font-size: 20px;
         text-decoration: none;
     }
-    .medicos{
+    #medicos{
         margin: 100px auto;
         height: 500px;
         width: 90%;
         border-radius: 20px;
         background-color: var(--azul0);
         text-align: center;
+    }
+    #medicos div img{
+        height: 300px;
+        width: 300px;
+        border-radius: 100%;
+        object-fit: cover;
     }
     .title{
         margin-bottom: 90px;
@@ -161,17 +167,6 @@
         color: var(--azul2);
         text-decoration: none;
     }
-    .medicos div img{
-        height: 300px;
-        width: 300px;
-        border-radius: 100%;
-        object-fit: cover;
-    }
-
-
-
-
-
 
 
     </style>
@@ -185,7 +180,7 @@
                 <li>Sobre nós
                     <div class="sub-menu">
                         <ul>
-                        <li><a href="#profissionais">Nossos médicos</a></li>
+                        <li><a href="#medicos">Nossos médicos</a></li>
                         <li><a href="#">Nossa história</a></li>
                     </ul></div></li>
                 <li>Serviços
@@ -251,7 +246,7 @@
             <li><a href="https://wa.me/556133569000" style="color: rgb(0, 231, 0);">WhatsApp</a></li>
         </ul>
     </div>
-    <div class="medicos">
+    <div id="medicos">
         <div class="title">
             <h1><a href="#">Conheça nossos profissionais</a></h1>
         </div>
