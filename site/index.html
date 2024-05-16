@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio | CardioLife</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/coracao-logo.png" type="image/x-icon">
 
 
 
@@ -99,9 +100,7 @@
    
     #area-azul{
         background-image: linear-gradient(to bottom, #0c9ce4, var(--azul2));
-        /* ackground-color: var(--azul1); */
         height: 400px;
-        margin-bottom: 200px;
         text-align: center;
 
     }
@@ -144,8 +143,41 @@
         font-weight: 600;
         font-size: 20px;
         text-decoration: none;
-
     }
+    .medicos{
+        margin: 100px auto;
+        height: 500px;
+        width: 90%;
+        border-radius: 20px;
+        background-color: var(--azul0);
+        text-align: center;
+    }
+    .title{
+        margin-bottom: 90px;
+        padding-top: 10px;
+    }
+    .title a{
+        color: var(--azul2);
+        text-decoration: none;
+    }
+    .medicos div img{
+        height: 300px;
+        width: 300px;
+        border-radius: 100%;
+        object-fit: cover;
+    }
+
+
+    footer{
+        padding-top: 50px;
+        text-align: center;
+        background-image: linear-gradient(to bottom, var(--vermelho2), var(--vermelho1));
+/*         background-color: var(--vermelho2); */
+        height: 300px;
+    }
+
+
+
 
     </style>
 </head>
@@ -224,7 +256,23 @@
             <li><a href="https://wa.me/556133569000" style="color: rgb(0, 231, 0);">WhatsApp</a></li>
         </ul>
     </div>
+    <div class="medicos">
+        <div class="title">
+            <h1><a href="#">Conheça nossos médicos</a></h1>
+        </div>
 
+        <div class=".profissionais" style="display: flex; justify-content: space-evenly;">
+            <div><img src="images/foto gui.jpeg" > 
+            <figcaption>Guilherme Barbosa</figcaption></div>
+            <div style="transform: translateY(-10%);"><img src="images/gui sorridente.jpeg">
+            <figcaption>Guilherme Sorridente</figcaption></div>
+            <div><img src="images/littlegui.jpeg">
+            <figcaption>Pequeno Guilherme</figcaption></div>
+        </div>
+    </div>
+    <footer>
+        a
+    </footer>
     
 </body>
 </html>
