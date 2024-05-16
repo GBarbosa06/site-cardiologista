@@ -89,3 +89,30 @@ header img{
 
 }
 
+footer{
+    padding-top: 50px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--vermelho2), var(--vermelho1));
+    height: 400px;
+}
+
+footer h1{
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 45px;
+    margin-bottom: 50px;
+    color: #104B79;
+}
+footer p{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 30px;
+}
+footer a{
+    text-decoration: none;
+    color: var(--azul2)
+}
+footer a:hover{
+    text-decoration: underline;
+}
