@@ -46,6 +46,26 @@
         main a{
             color: var(--azul2)
         }
+        aside{
+            text-align: center;
+            margin: 40px;
+        }
+        aside a, aside p{
+            display: inline-block;
+            background-color: var(--azul1);
+            color: white;
+            text-decoration: none;
+            height: 50px;
+            width: 200px;
+            border-radius: 5px;
+        }
+        aside a{
+            padding-top: 15px;
+        }
+        aside a:hover{
+            transition: .18s all;
+            transform: scale(1.05)
+        }
     </style>
 </head>
 <body>
@@ -89,7 +109,9 @@
         </a>
     </main>
 
-
+    <aside>
+        <p><a href="index.html">Voltar</a></p>
+    </aside>
     <footer>
         <h1>CardioLife</h1>
         <p>CENTRO CLINICO UCB - Taguatinga Sul, Brasília - DF, Brasil</p>
