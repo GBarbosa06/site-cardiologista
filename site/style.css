@@ -17,6 +17,7 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: var(--fonte-padrao);
+    scroll-behavior: smooth;
 }
 header{
     background-color: white;

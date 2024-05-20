@@ -104,6 +104,7 @@
         height: 400px;
         text-align: center;
 
+
     }
     #area-azul h1{
         padding: 50px 0px;
@@ -153,6 +154,21 @@
         background-color: var(--azul0);
         text-align: center;
     }
+    .blink:target {
+  animation: blink 1.6s ;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  90%{
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
     #medicos div img{
         height: 300px;
         width: 300px;
@@ -170,6 +186,7 @@
 
 
     </style>
+    
 </head>
 <body>
     <header>
@@ -181,7 +198,7 @@
                     <div class="sub-menu">
                         <ul>
                         <li><a href="#medicos">Nossos médicos</a></li>
-                        <li><a href="#">Nossa história</a></li>
+                        <li><a href="historia.html">Nossa história</a></li>
                     </ul></div></li>
                 <li>Serviços
                     <div class="sub-menu">                
@@ -246,7 +263,7 @@
             <li><a href="https://wa.me/556133569000" style="color: rgb(0, 231, 0);">WhatsApp</a></li>
         </ul>
     </div>
-    <div id="medicos">
+    <div id="medicos" class="blink">
         <div class="title">
             <h1><a href="">Conheça nossos profissionais</a></h1>
         </div>
