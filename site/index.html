@@ -155,20 +155,20 @@
         text-align: center;
     }
     .blink:target {
-  animation: blink 1.6s ;
+  animation: blink .6s ;
 }
 
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  90%{
-    transform: scale(1.1);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
+    @keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+    }
     #medicos div img{
         height: 300px;
         width: 300px;
@@ -203,8 +203,8 @@
                 <li>Serviços
                     <div class="sub-menu">                
                     <ul>
-                        <li><a href="#">Exames</a></li>
-                        <li><a href="#">Consultas</a></li>
+                        <li><a href="exames.html">Exames</a></li>
+                        <li><a href="consultas.html">Consultas</a></li>
                     </ul></div>
                 </li>
 
